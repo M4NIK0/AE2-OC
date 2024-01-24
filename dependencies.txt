@@ -1,1 +1,4 @@
 autoUpdate.lua
+banner
+run.lua
+utils.lua
