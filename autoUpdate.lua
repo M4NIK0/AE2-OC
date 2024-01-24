@@ -7,7 +7,7 @@ function checkDownload(tmpFolder)
     if file then
         for line in file:lines() do
             local dlfile = io.open("/tmp/" .. tmpFolder .. "/" .. line, "r")
-            if file then
+            if dlfile then
                 dlfile:close()
             else
                 print("ERROR: Downloading " .. line .. " Failed")
